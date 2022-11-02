@@ -9,4 +9,5 @@
   Los lenguajes usados en este proyecto hasta ahora son:
   <ul>
     <li>HTML</li>
+    <li>CSS</li>
   </ul>
