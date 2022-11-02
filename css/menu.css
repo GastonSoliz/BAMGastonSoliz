@@ -1,0 +1,29 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav_bar ul{
+	list-style: none;
+	font-size: 0;
+}
+
+.nav_bar ul li{
+	display: inline-block;
+	width: 25%;
+	position: relative;
+	font-size: 14px;
+}
+
+.nav_bar ul ul{
+	position: absolute;
+	display: none;
+}
+
+.nav_bar ul ul li{
+	display: block;
+}
+
+.nav_bar ul li:hover ul{
+	display: block;
+}

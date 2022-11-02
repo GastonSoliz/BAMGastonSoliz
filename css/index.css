@@ -1,0 +1,62 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: #f294a0;
+	background-image: url(../contenido/imagenes/catmeme.jpg);
+	background-size: 250px 150px;
+
+}
+ /*BARRA DE NAVEGACION*/
+header .nav_bar{
+	background-color: #95db5c;
+	margin: 20px 0px;
+	border: solid 5px #653096;
+	border-radius: 100px;
+	box-shadow: 10px 5px 10px 2px;
+}
+
+.nav_bar ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100px;
+
+	list-style: none;
+	font-size: 0;
+}
+
+.nav_bar ul li{
+	list-style-type: none;
+	background-color: #6dab73;
+}
+
+.nav_bar ul li a{
+	color: #232422;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Comic Sans MS;
+}
+
+.nav_bar ul ul{
+	position: absolute;
+	display: none;
+}
+
+.nav_bar ul ul li{
+	display: block;
+}
+
+.nav_bar ul li:hover ul{
+	display: block;
+}
+/*FIN BARRA DE NAVEGACION*/
+
+section article .img_principal{
+	width: 300px;	
+	height: 200px;
+	border-radius: 20px;
+}
