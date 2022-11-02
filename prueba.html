@@ -5,34 +5,40 @@
 <head>
 	<meta charset="utf-8">
 	<title>Prueba</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
 <body>
 	<header>CABECERAAAAAAAAAAAA</header>
 	<h1>Informacion rebundante</h1>
-		<section>Aparte, esto es una seccion... con una foto
-				<img src="smiley.gif" alt="Cara sonriendo"/>
-		</section>
 		<a href="#pie">Ir al pie de pagina</a>
 		<nav>Enlaces de navegacion, o menu:</nav>
-		<h2>Mi nombre es:</h2> Gaston Soliz
-		<h2>Objetivos del curso: </h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		<h2>Mi nombre es:</h2> <p>Gaston Soliz</p>
+		<h2>Objetivos del curso: </h2> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<h3>Mini bio sobre mi: </h3> Intento, tras intento, tras intento, tras otro intento...
-		<article>Ejemplo ekis de algo aislado...con video!
+		<section>		
+			<article>Ejemplo ekis de algo aislado...con video!
 				<video src="mivideo.mp4" controls> Tu navegador no implementa el elemento<code>video</code>
 				</video>
-		</article>
-		<article>
-			<iframe src="pagina_fuente.html" width=315 height=280>Texto para cuando el navegador no conoce la etiqueta iframe</iframe>
-		</article>
+			</article>
+			<article>Aparte, esto es una seccion... con una foto
+					<img src="smiley.gif" alt="Cara sonriendo"/>
+			</article>
+		</section>
+		<section>
+			<article>
+				<iframe src="pagina_fuente.html" width=315 height=400>Texto para cuando el navegador no conoce la etiqueta iframe</iframe>
+			</article>
+		</section>
 		<aside>Ejemplo de un audio en un aside
-				<audio src="perfect.mp3" preload="auto" controls></audio>
+			<audio src="perfect.mp3" preload="auto" controls></audio>
 		</aside>
+
 		<h3>Listas!(li)</h3>
 		Numericas con ol(Ejemplo como preparar mate)
 		<ol>
@@ -44,11 +50,11 @@
 		</ol>
 		Sin orden con ul/
 		<ul>
-			<li>Gaston</li>
-			<li>Valentina</li>
-			<li>Agustina</li>
-			<li>Fiorella</li>
-			<li>Mayra</li>
+			<li>Nombre1</li>
+			<li>Nombre2</li>
+			<li>Nombre3</li>
+			<li>Nombre4</li>
+			<li>Nombre5</li>
 		</ul>
 		De definicion con dl/
 		<dl>
@@ -58,7 +64,7 @@
 			<dt>Definicion 2</dt>
 		</dl>
 
-		<h4>FORMULARIOS</h4>
+		<fieldset><legend><h4>FORMULARIOS</h4></legend>
 		<form action="" method=get >
 			<div>Hombre</div>
 			<input type="radio" name="genero" value="hombre">
@@ -90,6 +96,7 @@
 			<input type="reset" value="Boton de reset">324165
 
 		</form>
+		</fieldset>
 
 		<h4>ENLACE</h4>
 		<a href="pagina_fuente.html" target="blank">ENLACE A LA OTRA PAGINAAAAAAAAA</a>
